@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +12,56 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/semantic.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/semantic.min.js"></script>
 
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  Test
+  <div id="main">
+    <!-- Header -->
+    <div id="header" class="ui one item menu inverted">
+      <h2 class="active item">Practice Tracker</h2>
+    </div>
+
+    <!-- Content -->
+    <div class="ui container">
+      <div class="ui segment">
+        <!-- Segment Content -->
+        <div class="ui grid padded divided">
+          <!-- Title and Content -->
+          <div class="ten wide column">
+            <h2>Jacob Collier: Piano Improvisation</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lYAxL7P04YY" frameborder="0" allow="autoplay; encrypted-media"
+              allowfullscreen></iframe>
+          </div>
+          <!-- Options -->
+          <div class="six wide column">
+            <!-- Time -->
+            <div class="row">
+              <div class="ui two column grid">
+                <div class="column">
+                  <h1>Current Time: 00:12</h1>
+                </div>
+                <div class="column">
+                  <h1>Total Time: 01:34</h1>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <!-- Button Row -->
+            <div class="row">
+              <button id="playButton" class="ui primary wide button">
+                <i class="play icon"></i>
+                Start
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
   <script src="main.js"></script>
 </body>
+
 </html>
