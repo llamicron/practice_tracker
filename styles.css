@@ -2,6 +2,6 @@
   margin-bottom: 2em;
 }
 
-#playButton {
+#playButton, #pauseButton {
   width: 100%;
 }
